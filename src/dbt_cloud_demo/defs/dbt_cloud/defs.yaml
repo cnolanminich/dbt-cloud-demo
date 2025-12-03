@@ -1,0 +1,17 @@
+type: dbt_cloud_demo.defs.dbt_cloud.component.DbtCloudObservabilityComponent
+
+attributes:
+  account_id: "{{ env.DBT_CLOUD_ACCOUNT_ID }}"
+  access_url: "https://ys709.us1.dbt.com"
+  token: "{{ env.DBT_CLOUD_TOKEN }}"
+  project_id: "{{ env.DBT_CLOUD_PROJECT_ID }}"
+  environment_id: "{{ env.DBT_CLOUD_ENVIRONMENT_ID }}"
+
+#---
+# type: dbt_cloud_demo.defs.dbt_cloud.component.DbtCloudOrchestrationComponent
+# attributes:
+#   account_id: "{{ env.DBT_CLOUD_ACCOUNT_ID }}"
+#   access_url: "https://ys709.us1.dbt.com"
+#   token: "{{ env.DBT_CLOUD_TOKEN }}"
+#   project_id: "{{ env.DBT_CLOUD_PROJECT_ID }}"
+#   environment_id: "{{ env.DBT_CLOUD_ENVIRONMENT_ID }}"
